@@ -28,10 +28,19 @@ These AI-edited showcase images are based on the application interface. Titles, 
 ### Android TV
 ![AAA IPTV Android TV interface with fictional English sample content](android-tv-showcase.png)
 
-### Windows desktop showcase
-![AAA IPTV Windows interface with fictional English sample content](windows-showcase.png)
+### Windows desktop — updated interface
 
-The Windows 1.1.1 English interface has been tested by the creator. Its download is withheld while bundled third-party redistribution requirements are completed. No Windows executable is included in this release.
+Windows 1.2.1 adds saved Playback, Subtitles, Appearance, Storage and About settings. The owner reports successful use of its Setup and Portable packages on Windows. Public Windows downloads remain pending completion of the distribution review; no Windows executable is published here yet.
+
+The following promotional images are AI-edited from the updated interface. Framing and illustrative catalogue artwork have been changed; these are not unaltered screenshots. No channels, movies or subscriptions are included.
+
+![AAA IPTV Windows — Home, Live TV, Movies, Series and Favorites; edited showcase with illustrative content](https://github.com/user-attachments/assets/5c9d9e09-035f-451b-8433-712c8e62d8fd)
+
+#### Settings
+
+Playback preferences, subtitle styling, appearance, temporary-cache management and version information are grouped in the main-menu Settings panel.
+
+![AAA IPTV Windows Settings — edited promotional presentation](https://github.com/user-attachments/assets/e6f18023-e6d0-4295-b5ea-e90534d203eb)
 
 ## Privacy
 
@@ -42,3 +51,4 @@ No personal account or private playlist is bundled. See [third-party notices](TH
 ## Project
 
 Built by AAA Software Studio from the creator’s idea with AI assistance. First-party source is maintained privately. This showcase repository does not grant a source-code license. Third-party components retain their respective licenses.
+
