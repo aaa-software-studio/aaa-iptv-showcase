@@ -1,0 +1,48 @@
+name: "Feature request / پیشنهاد قابلیت"
+description: "Suggest a useful improvement / پیشنهاد برای بهترشدن برنامه"
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggestions are public. Do not share credentials, subscription/playlist URLs, personal details or unredacted screenshots.
+        پیشنهادها عمومی‌اند. اطلاعات حساب، لینک اشتراک و اطلاعات شخصی را وارد نکنید.
+        Please search existing requests first. Suggestions do not imply a release-date commitment.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: "Platform / پلتفرم"
+      options:
+        - Windows
+        - Android phone or tablet
+        - Android TV
+        - All platforms / همه
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "What problem would this solve? / چه مشکلی را حل می‌کند؟"
+      description: "Describe the user task and when it becomes difficult."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Suggested behavior / رفتار پیشنهادی"
+      description: "Explain how the feature should work and who would benefit."
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives / راه‌حل‌های جایگزین"
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Privacy check / بررسی حریم خصوصی"
+      options:
+        - label: "This request contains no credentials, source URLs or personal information / اطلاعات حساس در این پیشنهاد نیست."
+          required: true
