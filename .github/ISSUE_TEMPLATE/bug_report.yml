@@ -1,0 +1,74 @@
+name: "Bug report / گزارش مشکل"
+description: "Report an installation, playback or interface problem / مشکل نصب، پخش یا رابط"
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reports are public. Never include account usernames/passwords, provider or playlist URLs, tokens, personal details or unredacted screenshots/logs.
+        گزارش عمومی است؛ رمز، نام کاربری، آدرس سرور یا پلی‌لیست، توکن و اطلاعات شخصی را ارسال نکنید.
+        Check existing issues first. Reporting a bug does not require sharing your subscription.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: "Platform / پلتفرم"
+      options:
+        - Windows Setup
+        - Windows Portable
+        - Android phone or tablet
+        - Android TV
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: "App version / نسخه برنامه"
+      placeholder: "Windows 1.2.2 or Android 2.15.0 (80)"
+    validations:
+      required: true
+  - type: input
+    id: device-os
+    attributes:
+      label: "Device and OS version / دستگاه و نسخه سیستم‌عامل"
+      description: "Model and OS only; no serial number, account name or device identifier."
+      placeholder: "Windows 11 x64 / Android TV 12"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce / مراحل تکرار مشکل"
+      description: "Use fictional account examples; omit all source URLs and credentials."
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual result / نتیجه فعلی"
+      description: "Describe the error without credentials or source URLs."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected result / نتیجه مورد انتظار"
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Optional redacted screenshot / تصویر اختیاری با حذف اطلاعات حساس"
+      description: "Remove account details, URLs, tokens, desktop notifications and personal information before attaching."
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Privacy check / بررسی حریم خصوصی"
+      options:
+        - label: "I removed credentials, source URLs and personal information / اطلاعات ورود، لینک منبع و اطلاعات شخصی را حذف کرده‌ام."
+          required: true
